@@ -1,5 +1,5 @@
 export default {
-  base: "/tailwind-portfolio/",
+  base: "/wladimir-portfolio/",
   build: {
     rollupOptions: {
       input: {
