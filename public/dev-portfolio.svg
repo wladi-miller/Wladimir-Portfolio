@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Dev Portfolio Icon</title>
+  <desc id="desc">Dunkles App-Icon mit dp-Monogramm und Code-Symbolen.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#172033"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5B6CFF"/>
+      <stop offset="100%" stop-color="#4F63F6"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="512" height="512" rx="82" fill="url(#bg)"/>
+
+  <!-- Left code bracket -->
+  <path d="M108 58 L52 108 L108 158"
+        fill="none"
+        stroke="url(#blue)"
+        stroke-width="17"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- d -->
+  <path fill="url(#blue)" fill-rule="evenodd"
+        d="M258 81 H294 V301
+           C294 339 263 370 225 370
+           C177 370 139 332 139 284
+           C139 236 177 198 225 198
+           C237 198 248 201 258 205
+           Z
+           M225 238
+           C199 238 179 258 179 284
+           C179 310 199 330 225 330
+           C251 330 271 310 271 284
+           C271 258 251 238 225 238
+           Z"/>
+
+  <!-- p -->
+  <path fill="#FFFFFF" fill-rule="evenodd"
+        d="M281 232
+           C297 210 322 198 349 198
+           C397 198 435 236 435 284
+           C435 332 397 370 349 370
+           C332 370 316 365 302 356
+           V447 H266 V249
+           C266 243 272 238 281 232
+           Z
+           M349 238
+           C323 238 303 258 303 284
+           C303 310 323 330 349 330
+           C375 330 395 310 395 284
+           C395 258 375 238 349 238
+           Z"/>
+
+  <!-- Slash and right code bracket -->
+  <path d="M398 371 L362 458"
+        fill="none"
+        stroke="url(#blue)"
+        stroke-width="17"
+        stroke-linecap="round"/>
+  <path d="M426 390 L470 430 L426 470"
+        fill="none"
+        stroke="url(#blue)"
+        stroke-width="17"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>

@@ -1,7 +1,7 @@
 {
-  "name": "portfolio-web",
-  "version": "0.0.0",
+  "name": "tailwind-portfolio",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,11 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.1.1"
-  },
-  "dependencies": {
-    "@tailwindcss/postcss": "^4.3.2",
-    "postcss": "^8.5.16",
-    "tailwindcss": "^4.3.2"
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "vite": "^5.2.0"
   }
 }
